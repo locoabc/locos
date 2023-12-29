@@ -43,6 +43,7 @@ impl Hooks for App {
 
     fn routes() -> AppRoutes {
         AppRoutes::with_default_routes()
+            .add_route(controllers::test::routes())
             .add_route(controllers::guide::routes())
             .add_route(controllers::post::routes())
             .prefix("/api")

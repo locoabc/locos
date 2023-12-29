@@ -1,1 +1,1 @@
-cargo install --path .
+cd loco-cli && cargo install --path .
