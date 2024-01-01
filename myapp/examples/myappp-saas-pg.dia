@@ -119,7 +119,7 @@
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="22.0681,11.1049"/>
+            <dia:point val="22.0682,11.1049"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -238,7 +238,7 @@
         <dia:real val="0.10000000149011612"/>
       </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#1e90e5"/>
+        <dia:color val="#58aef4"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -412,7 +412,7 @@ routes.rs#</dia:string>
         <dia:point val="35.8625,32.6992"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="35.7918,20.7718;48.0936,32.7699"/>
+        <dia:rectangle val="35.7918,20.7717;48.0936,32.7699"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="35.8625,32.6992"/>
@@ -440,7 +440,7 @@ routes.rs#</dia:string>
         <dia:point val="52.2879,20.8498"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="46.5569,20.7832;52.3545,32.8001"/>
+        <dia:rectangle val="46.5569,20.7831;52.3546,32.8001"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="52.2879,20.8498"/>
@@ -468,7 +468,7 @@ routes.rs#</dia:string>
         <dia:point val="30.475,38.3548"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="22.1917,25.7966;30.5442,38.4241"/>
+        <dia:rectangle val="22.1916,25.7966;30.5443,38.4241"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="30.475,38.3548"/>
@@ -668,7 +668,7 @@ routes.rs#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="39.2742,60.4519"/>
+            <dia:point val="39.2743,60.4519"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -1019,7 +1019,7 @@ $
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="29.8768,11.2649"/>
+            <dia:point val="29.8769,11.2649"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -1298,7 +1298,7 @@ $
               <dia:real val="0.80000000000000004"/>
             </dia:attribute>
             <dia:attribute name="pos">
-              <dia:point val="52.6028,25.8428"/>
+              <dia:point val="52.6029,25.8428"/>
             </dia:attribute>
             <dia:attribute name="color">
               <dia:color val="#000000"/>
@@ -1458,7 +1458,7 @@ $
               <dia:real val="0.80000000000000004"/>
             </dia:attribute>
             <dia:attribute name="pos">
-              <dia:point val="50.702,57.5852"/>
+              <dia:point val="50.7021,57.5852"/>
             </dia:attribute>
             <dia:attribute name="color">
               <dia:color val="#000000"/>
@@ -1559,7 +1559,7 @@ $
           <dia:real val="0.10000000149011612"/>
         </dia:attribute>
         <dia:attribute name="inner_color">
-          <dia:color val="#ff0000"/>
+          <dia:color val="#ffc0cb"/>
         </dia:attribute>
         <dia:attribute name="show_background">
           <dia:boolean val="true"/>

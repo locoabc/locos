@@ -25,7 +25,7 @@
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="760.445,729.035 765.198,739.155 760.261,736.533 755.201,738.91 "/>
   </g>
   <g>
-    <rect style="fill: #1e90e5" x="609.5" y="653.984" width="431" height="150.816"/>
+    <rect style="fill: #58aef4" x="609.5" y="653.984" width="431" height="150.816"/>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="609.5" y="653.984" width="431" height="150.816"/>
     <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Consolas;font-style:normal;font-weight:normal" x="825" y="677.273">
       <tspan x="825" y="677.273">myapp/src/controllers/</tspan>
@@ -331,7 +331,7 @@
   </text>
   <g>
     <g>
-      <rect style="fill: #ff0000" x="390.792" y="326.8" width="217.708" height="191"/>
+      <rect style="fill: #ffc0cb" x="390.792" y="326.8" width="217.708" height="191"/>
       <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="390.792" y="326.8" width="217.708" height="191"/>
       <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="499.646" y="426.181">
         <tspan x="499.646" y="426.181"></tspan>
