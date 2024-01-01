@@ -238,7 +238,7 @@
         <dia:real val="0.10000000149011612"/>
       </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#58aef4"/>
+        <dia:color val="#e5e5e5"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -1670,13 +1670,13 @@ $
     <dia:group>
       <dia:object type="Flowchart - Ellipse" version="0" id="O37">
         <dia:attribute name="obj_pos">
-          <dia:point val="23.5668,31.4546"/>
+          <dia:point val="26.0668,36.1546"/>
         </dia:attribute>
         <dia:attribute name="obj_bb">
-          <dia:rectangle val="23.5168,31.4046;25.6392,33.4174"/>
+          <dia:rectangle val="26.0168,36.1046;28.1392,38.1174"/>
         </dia:attribute>
         <dia:attribute name="elem_corner">
-          <dia:point val="23.5668,31.4546"/>
+          <dia:point val="26.0668,36.1546"/>
         </dia:attribute>
         <dia:attribute name="elem_width">
           <dia:real val="2.022425883301473"/>
@@ -1702,7 +1702,7 @@ $
               <dia:real val="0.80000000000000004"/>
             </dia:attribute>
             <dia:attribute name="pos">
-              <dia:point val="24.578,32.651"/>
+              <dia:point val="27.078,37.351"/>
             </dia:attribute>
             <dia:attribute name="color">
               <dia:color val="#000000"/>
@@ -1715,10 +1715,10 @@ $
       </dia:object>
       <dia:object type="Standard - Text" version="1" id="O38">
         <dia:attribute name="obj_pos">
-          <dia:point val="21.2812,32.6519"/>
+          <dia:point val="23.7812,37.3519"/>
         </dia:attribute>
         <dia:attribute name="obj_bb">
-          <dia:rectangle val="21.2812,32.0119;23.3787,32.7844"/>
+          <dia:rectangle val="23.7812,36.7119;25.8787,37.4844"/>
         </dia:attribute>
         <dia:attribute name="text">
           <dia:composite type="text">
@@ -1732,7 +1732,7 @@ $
               <dia:real val="0.80000000000000004"/>
             </dia:attribute>
             <dia:attribute name="pos">
-              <dia:point val="21.2812,32.6519"/>
+              <dia:point val="23.7812,37.3519"/>
             </dia:attribute>
             <dia:attribute name="color">
               <dia:color val="#000000"/>
