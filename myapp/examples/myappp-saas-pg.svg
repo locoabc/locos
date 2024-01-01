@@ -78,10 +78,10 @@
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="446.451,519.666 456.134,525.254 450.584,525.924 447.791,530.765 "/>
   </g>
   <g>
-    <ellipse style="fill: #ffffff" cx="732.226" cy="1248.7" rx="20.4977" ry="19.3865"/>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="732.226" cy="1248.7" rx="20.4977" ry="19.3865"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="732.226" y="1252.59">
-      <tspan x="732.226" y="1252.59">1</tspan>
+    <ellipse style="fill: #ffffff" cx="536.226" cy="1210.7" rx="20.4977" ry="19.3865"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="536.226" cy="1210.7" rx="20.4977" ry="19.3865"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="536.226" y="1214.59">
+      <tspan x="536.226" y="1214.59">1</tspan>
     </text>
   </g>
   <g>
@@ -388,23 +388,23 @@
     <tspan x="622.5" y="1108.39">[GET] /api/user/current</tspan>
     <tspan x="622.5" y="1124.39"></tspan>
   </text>
-  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="608.5" y="1265.39">
-    <tspan x="608.5" y="1265.39"># Health checks</tspan>
-    <tspan x="608.5" y="1281.39">curl localhost:3000/api/_ping</tspan>
-    <tspan x="608.5" y="1297.39">curl localhost:3000/api/_health</tspan>
-    <tspan x="608.5" y="1313.39"># Hello</tspan>
-    <tspan x="608.5" y="1329.39">curl localhost:3000/api/guide</tspan>
-    <tspan x="608.5" y="1345.39">curl localhost:3000/api/home/hello</tspan>
-    <tspan x="608.5" y="1361.39"></tspan>
-    <tspan x="608.5" y="1377.39"># Post article</tspan>
-    <tspan x="608.5" y="1393.39">curl -X POST -H "Content-Type: application/json" -d '{</tspan>
-    <tspan x="608.5" y="1409.39">  "title": "Your Title",</tspan>
-    <tspan x="608.5" y="1425.39">  "content": "Your Content xxx"</tspan>
-    <tspan x="608.5" y="1441.39">}' localhost:3000/api/articles</tspan>
-    <tspan x="608.5" y="1457.39">curl localhost:3000/api/articles # get a list of artichle</tspan>
-    <tspan x="608.5" y="1473.39"># Users</tspan>
-    <tspan x="608.5" y="1489.39">curl localhost:3000/api/user/current # get name of current users</tspan>
-    <tspan x="608.5" y="1505.39">curl localhost:3000/api/user         # get list of users</tspan>
-    <tspan x="608.5" y="1521.39"></tspan>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="613.5" y="1249.39">
+    <tspan x="613.5" y="1249.39"># Health checks</tspan>
+    <tspan x="613.5" y="1265.39">curl localhost:3000/api/_ping  ; echo</tspan>
+    <tspan x="613.5" y="1281.39">curl localhost:3000/api/_health ; echo</tspan>
+    <tspan x="613.5" y="1297.39"># Hello</tspan>
+    <tspan x="613.5" y="1313.39">curl localhost:3000/api/guide ; echo</tspan>
+    <tspan x="613.5" y="1329.39">curl localhost:3000/api/home/hello ; echo</tspan>
+    <tspan x="613.5" y="1345.39"></tspan>
+    <tspan x="613.5" y="1361.39"># Post article</tspan>
+    <tspan x="613.5" y="1377.39">curl -X POST -H "Content-Type: application/json" -d '{</tspan>
+    <tspan x="613.5" y="1393.39">  "title": "Your Title",</tspan>
+    <tspan x="613.5" y="1409.39">  "content": "Your Content xxx"</tspan>
+    <tspan x="613.5" y="1425.39">}' localhost:3000/api/articles</tspan>
+    <tspan x="613.5" y="1441.39">curl localhost:3000/api/articles # get a list of artichle</tspan>
+    <tspan x="613.5" y="1457.39"># Users</tspan>
+    <tspan x="613.5" y="1473.39">curl localhost:3000/api/user/current;echo  # get name of current users</tspan>
+    <tspan x="613.5" y="1489.39">curl localhost:3000/api/user;echo          # get list of users</tspan>
+    <tspan x="613.5" y="1505.39"></tspan>
   </text>
 </svg>

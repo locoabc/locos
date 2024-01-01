@@ -28,7 +28,7 @@
           <dia:boolean val="true"/>
         </dia:attribute>
         <dia:attribute name="scaling">
-          <dia:real val="0.28606432676315308"/>
+          <dia:real val="0.28606429696083069"/>
         </dia:attribute>
         <dia:attribute name="fitto">
           <dia:boolean val="true"/>
@@ -492,13 +492,13 @@ routes.rs#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Ellipse" version="0" id="O11">
       <dia:attribute name="obj_pos">
-        <dia:point val="35.6001,61.4788"/>
+        <dia:point val="25.8001,59.5788"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="35.5501,61.4288;37.6725,63.4416"/>
+        <dia:rectangle val="25.7501,59.5288;27.8725,61.5416"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="35.6001,61.4788"/>
+        <dia:point val="25.8001,59.5788"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="2.022425883301473"/>
@@ -524,7 +524,7 @@ routes.rs#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="36.6113,62.6752"/>
+            <dia:point val="26.8113,60.7752"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -1831,20 +1831,20 @@ $
     </dia:object>
     <dia:object type="Standard - Text" version="1" id="O41">
       <dia:attribute name="obj_pos">
-        <dia:point val="30.425,63.2696"/>
+        <dia:point val="30.675,62.4696"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="30.425,62.6296;48.775,76.2021"/>
+        <dia:rectangle val="30.675,61.8296;50.79,75.4021"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
             <dia:string>## Health checks
-curl localhost:3000/api/_ping
-curl localhost:3000/api/_health
+curl localhost:3000/api/_ping  ; echo
+curl localhost:3000/api/_health ; echo
 # Hello
-curl localhost:3000/api/guide
-curl localhost:3000/api/home/hello
+curl localhost:3000/api/guide ; echo
+curl localhost:3000/api/home/hello ; echo
 
 # Post article
 curl -X POST -H "Content-Type: application/json" -d '{
@@ -1853,8 +1853,8 @@ curl -X POST -H "Content-Type: application/json" -d '{
 }' localhost:3000/api/articles
 curl localhost:3000/api/articles # get a list of artichle
 # Users
-curl localhost:3000/api/user/current # get name of current users
-curl localhost:3000/api/user         # get list of users
+curl localhost:3000/api/user/current;echo  # get name of current users
+curl localhost:3000/api/user;echo          # get list of users
 #</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
@@ -1864,7 +1864,7 @@ curl localhost:3000/api/user         # get list of users
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="30.425,63.2696"/>
+            <dia:point val="30.675,62.4696"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
