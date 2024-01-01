@@ -28,7 +28,7 @@
           <dia:boolean val="true"/>
         </dia:attribute>
         <dia:attribute name="scaling">
-          <dia:real val="0.28606429696083069"/>
+          <dia:real val="0.27839988470077515"/>
         </dia:attribute>
         <dia:attribute name="fitto">
           <dia:boolean val="true"/>
@@ -69,77 +69,7 @@
     </dia:attribute>
   </dia:diagramdata>
   <dia:layer name="Background" visible="true" active="true">
-    <dia:object type="Flowchart - Magnetic Disk" version="1" id="O0">
-      <dia:attribute name="obj_pos">
-        <dia:point val="20.3113,9.04"/>
-      </dia:attribute>
-      <dia:attribute name="obj_bb">
-        <dia:rectangle val="20.2613,8.99;23.875,12.2184"/>
-      </dia:attribute>
-      <dia:attribute name="meta">
-        <dia:composite type="dict"/>
-      </dia:attribute>
-      <dia:attribute name="elem_corner">
-        <dia:point val="20.3113,9.04"/>
-      </dia:attribute>
-      <dia:attribute name="elem_width">
-        <dia:real val="3.5137200000000082"/>
-      </dia:attribute>
-      <dia:attribute name="elem_height">
-        <dia:real val="3.1284291176470571"/>
-      </dia:attribute>
-      <dia:attribute name="line_width">
-        <dia:real val="0.10000000149011612"/>
-      </dia:attribute>
-      <dia:attribute name="line_colour">
-        <dia:color val="#000000"/>
-      </dia:attribute>
-      <dia:attribute name="fill_colour">
-        <dia:color val="#bfbfbf"/>
-      </dia:attribute>
-      <dia:attribute name="show_background">
-        <dia:boolean val="true"/>
-      </dia:attribute>
-      <dia:attribute name="line_style">
-        <dia:enum val="0"/>
-        <dia:real val="1"/>
-      </dia:attribute>
-      <dia:attribute name="padding">
-        <dia:real val="0.10000000000000001"/>
-      </dia:attribute>
-      <dia:attribute name="text">
-        <dia:composite type="text">
-          <dia:attribute name="string">
-            <dia:string>#Database#</dia:string>
-          </dia:attribute>
-          <dia:attribute name="font">
-            <dia:font family="sans" style="0" name="Helvetica"/>
-          </dia:attribute>
-          <dia:attribute name="height">
-            <dia:real val="0.80000000000000004"/>
-          </dia:attribute>
-          <dia:attribute name="pos">
-            <dia:point val="22.0682,11.1049"/>
-          </dia:attribute>
-          <dia:attribute name="color">
-            <dia:color val="#000000"/>
-          </dia:attribute>
-          <dia:attribute name="alignment">
-            <dia:enum val="1"/>
-          </dia:attribute>
-        </dia:composite>
-      </dia:attribute>
-      <dia:attribute name="flip_horizontal">
-        <dia:boolean val="false"/>
-      </dia:attribute>
-      <dia:attribute name="flip_vertical">
-        <dia:boolean val="false"/>
-      </dia:attribute>
-      <dia:attribute name="subscale">
-        <dia:real val="1"/>
-      </dia:attribute>
-    </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O1">
+    <dia:object type="Standard - Line" version="0" id="O0">
       <dia:attribute name="obj_pos">
         <dia:point val="34.9956,59.2119"/>
       </dia:attribute>
@@ -163,11 +93,11 @@
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O14" connection="1"/>
-        <dia:connection handle="1" to="O6" connection="8"/>
+        <dia:connection handle="0" to="O13" connection="1"/>
+        <dia:connection handle="1" to="O5" connection="8"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O2">
+    <dia:object type="Standard - Line" version="0" id="O1">
       <dia:attribute name="obj_pos">
         <dia:point val="22.2609,16.34"/>
       </dia:attribute>
@@ -191,7 +121,7 @@
         <dia:real val="0.5"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O3">
+    <dia:object type="Standard - Line" version="0" id="O2">
       <dia:attribute name="obj_pos">
         <dia:point val="23.707,45.0081"/>
       </dia:attribute>
@@ -215,10 +145,10 @@
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O6" connection="0"/>
+        <dia:connection handle="0" to="O5" connection="0"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O4">
+    <dia:object type="Flowchart - Box" version="0" id="O3">
       <dia:attribute name="obj_pos">
         <dia:point val="30.475,32.6992"/>
       </dia:attribute>
@@ -276,7 +206,7 @@
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O5">
+    <dia:object type="Flowchart - Box" version="0" id="O4">
       <dia:attribute name="obj_pos">
         <dia:point val="45.8764,15.7498"/>
       </dia:attribute>
@@ -331,7 +261,7 @@
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Diamond" version="0" id="O6">
+    <dia:object type="Flowchart - Diamond" version="0" id="O5">
       <dia:attribute name="obj_pos">
         <dia:point val="17.689,45.0081"/>
       </dia:attribute>
@@ -383,7 +313,7 @@ routes.rs#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O7">
+    <dia:object type="Standard - Line" version="0" id="O6">
       <dia:attribute name="obj_pos">
         <dia:point val="50.275,55.045"/>
       </dia:attribute>
@@ -407,7 +337,7 @@ routes.rs#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O8">
+    <dia:object type="Standard - Line" version="0" id="O7">
       <dia:attribute name="obj_pos">
         <dia:point val="35.8625,32.6992"/>
       </dia:attribute>
@@ -431,11 +361,11 @@ routes.rs#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O4" connection="1"/>
-        <dia:connection handle="1" to="O5" connection="12"/>
+        <dia:connection handle="0" to="O3" connection="1"/>
+        <dia:connection handle="1" to="O4" connection="12"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O9">
+    <dia:object type="Standard - Line" version="0" id="O8">
       <dia:attribute name="obj_pos">
         <dia:point val="52.2879,20.8498"/>
       </dia:attribute>
@@ -459,11 +389,11 @@ routes.rs#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O5" connection="14"/>
-        <dia:connection handle="1" to="O4" connection="3"/>
+        <dia:connection handle="0" to="O4" connection="14"/>
+        <dia:connection handle="1" to="O3" connection="3"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O10">
+    <dia:object type="Standard - Line" version="0" id="O9">
       <dia:attribute name="obj_pos">
         <dia:point val="30.475,38.3242"/>
       </dia:attribute>
@@ -487,10 +417,10 @@ routes.rs#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O4" connection="9"/>
+        <dia:connection handle="0" to="O3" connection="9"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Flowchart - Ellipse" version="0" id="O11">
+    <dia:object type="Flowchart - Ellipse" version="0" id="O10">
       <dia:attribute name="obj_pos">
         <dia:point val="25.8001,59.5788"/>
       </dia:attribute>
@@ -535,15 +465,15 @@ routes.rs#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Ellipse" version="0" id="O12">
+    <dia:object type="Flowchart - Ellipse" version="0" id="O11">
       <dia:attribute name="obj_pos">
-        <dia:point val="21.9331,13.1977"/>
+        <dia:point val="22.5331,13.4477"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="21.8831,13.1477;24.0055,15.1605"/>
+        <dia:rectangle val="22.4831,13.3977;24.6055,15.4105"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="21.9331,13.1977"/>
+        <dia:point val="22.5331,13.4477"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="2.022425883301473"/>
@@ -569,7 +499,7 @@ routes.rs#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="22.9443,14.3941"/>
+            <dia:point val="23.5443,14.6441"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -580,7 +510,7 @@ routes.rs#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Ellipse" version="0" id="O13">
+    <dia:object type="Flowchart - Ellipse" version="0" id="O12">
       <dia:attribute name="obj_pos">
         <dia:point val="29.911,28.2121"/>
       </dia:attribute>
@@ -625,7 +555,7 @@ routes.rs#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Parallelogram" version="0" id="O14">
+    <dia:object type="Flowchart - Parallelogram" version="0" id="O13">
       <dia:attribute name="obj_pos">
         <dia:point val="29.625,59.2119"/>
       </dia:attribute>
@@ -679,7 +609,7 @@ routes.rs#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O15">
+    <dia:object type="Standard - Line" version="0" id="O14">
       <dia:attribute name="obj_pos">
         <dia:point val="27.7037,25.89"/>
       </dia:attribute>
@@ -703,7 +633,7 @@ routes.rs#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O16">
+    <dia:object type="Standard - Line" version="0" id="O15">
       <dia:attribute name="obj_pos">
         <dia:point val="23.825,11.647"/>
       </dia:attribute>
@@ -727,15 +657,15 @@ routes.rs#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O0" connection="12"/>
+        <dia:connection handle="0" to="O39" connection="12"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - Text" version="1" id="O17">
+    <dia:object type="Standard - Text" version="1" id="O16">
       <dia:attribute name="obj_pos">
-        <dia:point val="27.0256,6.12499"/>
+        <dia:point val="25.6256,4.92499"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="27.0256,5.48499;54.7156,8.65749"/>
+        <dia:rectangle val="25.6256,4.28499;53.3156,7.45749"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -752,7 +682,7 @@ HOW: Diagram using Dia at http://dia-installer.de/download/index.html.en
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="27.0256,6.12499"/>
+            <dia:point val="25.6256,4.92499"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -767,7 +697,7 @@ HOW: Diagram using Dia at http://dia-installer.de/download/index.html.en
       </dia:attribute>
     </dia:object>
     <dia:group>
-      <dia:object type="Flowchart - Ellipse" version="0" id="O18">
+      <dia:object type="Flowchart - Ellipse" version="0" id="O17">
         <dia:attribute name="obj_pos">
           <dia:point val="24.3488,41.3363"/>
         </dia:attribute>
@@ -812,7 +742,7 @@ HOW: Diagram using Dia at http://dia-installer.de/download/index.html.en
           </dia:composite>
         </dia:attribute>
       </dia:object>
-      <dia:object type="Standard - Text" version="1" id="O19">
+      <dia:object type="Standard - Text" version="1" id="O18">
         <dia:attribute name="obj_pos">
           <dia:point val="20.8725,42.5305"/>
         </dia:attribute>
@@ -846,7 +776,7 @@ HOW: Diagram using Dia at http://dia-installer.de/download/index.html.en
         </dia:attribute>
       </dia:object>
     </dia:group>
-    <dia:object type="Standard - Text" version="1" id="O20">
+    <dia:object type="Standard - Text" version="1" id="O19">
       <dia:attribute name="obj_pos">
         <dia:point val="7.825,8.57565"/>
       </dia:attribute>
@@ -969,128 +899,7 @@ $
         <dia:enum val="3"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Magnetic Disk" version="1" id="O21">
-      <dia:attribute name="obj_pos">
-        <dia:point val="28.12,9.2"/>
-      </dia:attribute>
-      <dia:attribute name="obj_bb">
-        <dia:rectangle val="28.07,9.15;31.6837,12.3784"/>
-      </dia:attribute>
-      <dia:attribute name="meta">
-        <dia:composite type="dict"/>
-      </dia:attribute>
-      <dia:attribute name="elem_corner">
-        <dia:point val="28.12,9.2"/>
-      </dia:attribute>
-      <dia:attribute name="elem_width">
-        <dia:real val="3.5137200000000082"/>
-      </dia:attribute>
-      <dia:attribute name="elem_height">
-        <dia:real val="3.1284291176470571"/>
-      </dia:attribute>
-      <dia:attribute name="line_width">
-        <dia:real val="0.10000000149011612"/>
-      </dia:attribute>
-      <dia:attribute name="line_colour">
-        <dia:color val="#000000"/>
-      </dia:attribute>
-      <dia:attribute name="fill_colour">
-        <dia:color val="#bfbfbf"/>
-      </dia:attribute>
-      <dia:attribute name="show_background">
-        <dia:boolean val="true"/>
-      </dia:attribute>
-      <dia:attribute name="line_style">
-        <dia:enum val="0"/>
-        <dia:real val="1"/>
-      </dia:attribute>
-      <dia:attribute name="padding">
-        <dia:real val="0.10000000000000001"/>
-      </dia:attribute>
-      <dia:attribute name="text">
-        <dia:composite type="text">
-          <dia:attribute name="string">
-            <dia:string>#Redis#</dia:string>
-          </dia:attribute>
-          <dia:attribute name="font">
-            <dia:font family="sans" style="0" name="Helvetica"/>
-          </dia:attribute>
-          <dia:attribute name="height">
-            <dia:real val="0.80000000000000004"/>
-          </dia:attribute>
-          <dia:attribute name="pos">
-            <dia:point val="29.8769,11.2649"/>
-          </dia:attribute>
-          <dia:attribute name="color">
-            <dia:color val="#000000"/>
-          </dia:attribute>
-          <dia:attribute name="alignment">
-            <dia:enum val="1"/>
-          </dia:attribute>
-        </dia:composite>
-      </dia:attribute>
-      <dia:attribute name="flip_horizontal">
-        <dia:boolean val="false"/>
-      </dia:attribute>
-      <dia:attribute name="flip_vertical">
-        <dia:boolean val="false"/>
-      </dia:attribute>
-      <dia:attribute name="subscale">
-        <dia:real val="1"/>
-      </dia:attribute>
-    </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O22">
-      <dia:attribute name="obj_pos">
-        <dia:point val="42.975,9.59"/>
-      </dia:attribute>
-      <dia:attribute name="obj_bb">
-        <dia:rectangle val="42.925,9.54;49.7986,12.2804"/>
-      </dia:attribute>
-      <dia:attribute name="elem_corner">
-        <dia:point val="42.975,9.59"/>
-      </dia:attribute>
-      <dia:attribute name="elem_width">
-        <dia:real val="6.7736200007450602"/>
-      </dia:attribute>
-      <dia:attribute name="elem_height">
-        <dia:real val="2.6403680007450632"/>
-      </dia:attribute>
-      <dia:attribute name="border_width">
-        <dia:real val="0.10000000149011612"/>
-      </dia:attribute>
-      <dia:attribute name="inner_color">
-        <dia:color val="#bfbfbf"/>
-      </dia:attribute>
-      <dia:attribute name="show_background">
-        <dia:boolean val="true"/>
-      </dia:attribute>
-      <dia:attribute name="padding">
-        <dia:real val="0.5"/>
-      </dia:attribute>
-      <dia:attribute name="text">
-        <dia:composite type="text">
-          <dia:attribute name="string">
-            <dia:string>#mailer#</dia:string>
-          </dia:attribute>
-          <dia:attribute name="font">
-            <dia:font family="sans" style="0" name="Helvetica"/>
-          </dia:attribute>
-          <dia:attribute name="height">
-            <dia:real val="0.80000000000000004"/>
-          </dia:attribute>
-          <dia:attribute name="pos">
-            <dia:point val="46.3618,11.1502"/>
-          </dia:attribute>
-          <dia:attribute name="color">
-            <dia:color val="#000000"/>
-          </dia:attribute>
-          <dia:attribute name="alignment">
-            <dia:enum val="1"/>
-          </dia:attribute>
-        </dia:composite>
-      </dia:attribute>
-    </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O23">
+    <dia:object type="Standard - Line" version="0" id="O20">
       <dia:attribute name="obj_pos">
         <dia:point val="52.025,40.1992"/>
       </dia:attribute>
@@ -1114,11 +923,11 @@ $
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O4" connection="15"/>
+        <dia:connection handle="0" to="O3" connection="15"/>
       </dia:connections>
     </dia:object>
     <dia:group>
-      <dia:object type="Standard - Text" version="1" id="O24">
+      <dia:object type="Standard - Text" version="1" id="O21">
         <dia:attribute name="obj_pos">
           <dia:point val="46.6886,54.4023"/>
         </dia:attribute>
@@ -1151,7 +960,7 @@ $
           <dia:enum val="3"/>
         </dia:attribute>
       </dia:object>
-      <dia:object type="Flowchart - Box" version="0" id="O25">
+      <dia:object type="Flowchart - Box" version="0" id="O22">
         <dia:attribute name="obj_pos">
           <dia:point val="45.975,41.945"/>
         </dia:attribute>
@@ -1216,7 +1025,7 @@ $
           </dia:composite>
         </dia:attribute>
       </dia:object>
-      <dia:object type="Standard - Text" version="1" id="O26">
+      <dia:object type="Standard - Text" version="1" id="O23">
         <dia:attribute name="obj_pos">
           <dia:point val="47.575,43.44"/>
         </dia:attribute>
@@ -1264,7 +1073,7 @@ $
       </dia:object>
     </dia:group>
     <dia:group>
-      <dia:object type="Flowchart - Ellipse" version="0" id="O27">
+      <dia:object type="Flowchart - Ellipse" version="0" id="O24">
         <dia:attribute name="obj_pos">
           <dia:point val="51.4619,24.5665"/>
         </dia:attribute>
@@ -1309,7 +1118,7 @@ $
           </dia:composite>
         </dia:attribute>
       </dia:object>
-      <dia:object type="Standard - Text" version="1" id="O28">
+      <dia:object type="Standard - Text" version="1" id="O25">
         <dia:attribute name="obj_pos">
           <dia:point val="54.3157,25.721"/>
         </dia:attribute>
@@ -1344,7 +1153,7 @@ $
       </dia:object>
     </dia:group>
     <dia:group>
-      <dia:object type="Flowchart - Ellipse" version="0" id="O29">
+      <dia:object type="Flowchart - Ellipse" version="0" id="O26">
         <dia:attribute name="obj_pos">
           <dia:point val="40.1084,23.2391"/>
         </dia:attribute>
@@ -1389,7 +1198,7 @@ $
           </dia:composite>
         </dia:attribute>
       </dia:object>
-      <dia:object type="Standard - Text" version="1" id="O30">
+      <dia:object type="Standard - Text" version="1" id="O27">
         <dia:attribute name="obj_pos">
           <dia:point val="40.0816,26.1964"/>
         </dia:attribute>
@@ -1424,7 +1233,7 @@ $
       </dia:object>
     </dia:group>
     <dia:group>
-      <dia:object type="Flowchart - Ellipse" version="0" id="O31">
+      <dia:object type="Flowchart - Ellipse" version="0" id="O28">
         <dia:attribute name="obj_pos">
           <dia:point val="49.5801,56.4121"/>
         </dia:attribute>
@@ -1469,7 +1278,7 @@ $
           </dia:composite>
         </dia:attribute>
       </dia:object>
-      <dia:object type="Standard - Text" version="1" id="O32">
+      <dia:object type="Standard - Text" version="1" id="O29">
         <dia:attribute name="obj_pos">
           <dia:point val="53.175,57.49"/>
         </dia:attribute>
@@ -1503,12 +1312,12 @@ $
         </dia:attribute>
       </dia:object>
     </dia:group>
-    <dia:object type="Standard - Text" version="1" id="O33">
+    <dia:object type="Standard - Text" version="1" id="O30">
       <dia:attribute name="obj_pos">
-        <dia:point val="19.3,5.29"/>
+        <dia:point val="18.45,3.09"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="19.3,4.16;62.19,8.34472"/>
+        <dia:rectangle val="18.45,1.96;61.34,6.14472"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -1524,7 +1333,7 @@ $
             <dia:real val="1.4111111193350803"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="19.3,5.29"/>
+            <dia:point val="18.45,3.09"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -1539,7 +1348,7 @@ $
       </dia:attribute>
     </dia:object>
     <dia:group>
-      <dia:object type="Flowchart - Box" version="0" id="O34">
+      <dia:object type="Flowchart - Box" version="0" id="O31">
         <dia:attribute name="obj_pos">
           <dia:point val="19.5396,16.34"/>
         </dia:attribute>
@@ -1590,7 +1399,7 @@ $
           </dia:composite>
         </dia:attribute>
       </dia:object>
-      <dia:object type="Standard - Text" version="1" id="O35">
+      <dia:object type="Standard - Text" version="1" id="O32">
         <dia:attribute name="obj_pos">
           <dia:point val="30.557,22.9174"/>
         </dia:attribute>
@@ -1623,7 +1432,7 @@ $
           <dia:enum val="3"/>
         </dia:attribute>
       </dia:object>
-      <dia:object type="Standard - Text" version="1" id="O36">
+      <dia:object type="Standard - Text" version="1" id="O33">
         <dia:attribute name="obj_pos">
           <dia:point val="21.675,17.29"/>
         </dia:attribute>
@@ -1668,7 +1477,7 @@ $
       </dia:object>
     </dia:group>
     <dia:group>
-      <dia:object type="Flowchart - Ellipse" version="0" id="O37">
+      <dia:object type="Flowchart - Ellipse" version="0" id="O34">
         <dia:attribute name="obj_pos">
           <dia:point val="26.0668,36.1546"/>
         </dia:attribute>
@@ -1713,7 +1522,7 @@ $
           </dia:composite>
         </dia:attribute>
       </dia:object>
-      <dia:object type="Standard - Text" version="1" id="O38">
+      <dia:object type="Standard - Text" version="1" id="O35">
         <dia:attribute name="obj_pos">
           <dia:point val="23.7812,37.3519"/>
         </dia:attribute>
@@ -1747,7 +1556,7 @@ $
         </dia:attribute>
       </dia:object>
     </dia:group>
-    <dia:object type="Standard - Text" version="1" id="O39">
+    <dia:object type="Standard - Text" version="1" id="O36">
       <dia:attribute name="obj_pos">
         <dia:point val="30.575,82.4196"/>
       </dia:attribute>
@@ -1780,7 +1589,7 @@ $
         <dia:enum val="3"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Text" version="1" id="O40">
+    <dia:object type="Standard - Text" version="1" id="O37">
       <dia:attribute name="obj_pos">
         <dia:point val="31.125,43.4196"/>
       </dia:attribute>
@@ -1829,7 +1638,7 @@ $
         <dia:enum val="3"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Text" version="1" id="O41">
+    <dia:object type="Standard - Text" version="1" id="O38">
       <dia:attribute name="obj_pos">
         <dia:point val="30.675,62.4696"/>
       </dia:attribute>
@@ -1878,5 +1687,301 @@ curl localhost:3000/api/user;echo          # get list of users
         <dia:enum val="3"/>
       </dia:attribute>
     </dia:object>
+    <dia:group>
+      <dia:object type="Flowchart - Magnetic Disk" version="1" id="O39">
+        <dia:attribute name="obj_pos">
+          <dia:point val="20.3113,9.04"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="20.2613,8.99;23.875,12.2184"/>
+        </dia:attribute>
+        <dia:attribute name="meta">
+          <dia:composite type="dict"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="20.3113,9.04"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="3.5137200000000082"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="3.1284291176470571"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0.10000000149011612"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#000000"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#bfbfbf"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="0"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="padding">
+          <dia:real val="0.10000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>#Database#</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="22.0682,11.1049"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="1"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="subscale">
+          <dia:real val="1"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Standard - Text" version="1" id="O40">
+        <dia:attribute name="obj_pos">
+          <dia:point val="20.025,8.7696"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="20.025,8.1296;24.13,8.9021"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>#localhost:5432#</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="20.025,8.7696"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="0"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="valign">
+          <dia:enum val="3"/>
+        </dia:attribute>
+      </dia:object>
+    </dia:group>
+    <dia:group>
+      <dia:object type="Flowchart - Magnetic Disk" version="1" id="O41">
+        <dia:attribute name="obj_pos">
+          <dia:point val="28.12,9.2"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="28.07,9.15;31.6837,12.3784"/>
+        </dia:attribute>
+        <dia:attribute name="meta">
+          <dia:composite type="dict"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="28.12,9.2"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="3.5137200000000082"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="3.1284291176470571"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0.10000000149011612"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#000000"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#bfbfbf"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="0"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="padding">
+          <dia:real val="0.10000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>#Redis#</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="29.8769,11.2649"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="1"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="subscale">
+          <dia:real val="1"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Standard - Text" version="1" id="O42">
+        <dia:attribute name="obj_pos">
+          <dia:point val="27.825,8.9196"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="27.825,8.2796;31.93,9.0521"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>#localhost:6379#</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="27.825,8.9196"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="0"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="valign">
+          <dia:enum val="3"/>
+        </dia:attribute>
+      </dia:object>
+    </dia:group>
+    <dia:group>
+      <dia:object type="Flowchart - Box" version="0" id="O43">
+        <dia:attribute name="obj_pos">
+          <dia:point val="42.975,9.59"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="42.925,9.54;49.7986,12.2804"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="42.975,9.59"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="6.7736200007450602"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="2.6403680007450632"/>
+        </dia:attribute>
+        <dia:attribute name="border_width">
+          <dia:real val="0.10000000149011612"/>
+        </dia:attribute>
+        <dia:attribute name="inner_color">
+          <dia:color val="#bfbfbf"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="padding">
+          <dia:real val="0.5"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>#mailer#</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="46.3618,11.1502"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="1"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Standard - Text" version="1" id="O44">
+        <dia:attribute name="obj_pos">
+          <dia:point val="44.025,9.1696"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="44.025,8.5296;48.13,9.3021"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>#localhost:1025#</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="44.025,9.1696"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="0"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="valign">
+          <dia:enum val="3"/>
+        </dia:attribute>
+      </dia:object>
+    </dia:group>
   </dia:layer>
 </dia:diagram>
