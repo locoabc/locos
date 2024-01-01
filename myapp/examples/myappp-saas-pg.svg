@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="60cm" height="77cm" viewBox="156 84 1195 1530" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <path style="fill: #bfbfbf" d="M 406.226 191.228 C 420.281,183.407 427.308,180.8 441.363,180.8 C 455.418,180.8 462.446,183.407 476.5,191.228 L 476.5,232.94 C 462.446,240.762 455.418,243.369 441.363,243.369 C 427.308,243.369 420.281,240.762 406.226,232.94 L 406.226,191.228z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 406.226 191.228 C 420.281,183.407 427.308,180.8 441.363,180.8 C 455.418,180.8 462.446,183.407 476.5,191.228 L 476.5,232.94 C 462.446,240.762 455.418,243.369 441.363,243.369 C 427.308,243.369 420.281,240.762 406.226,232.94 L 406.226,191.228"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 406.226 191.228 C 420.281,199.049 427.308,201.656 441.363,201.656 C 455.418,201.656 462.446,199.049 476.5,191.228"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="441.363" y="221.18">
+      <tspan x="441.363" y="221.18">Database</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="699.912" y1="1184.24" x2="716.522" y2="1016.9"/>
+    <polygon style="fill: #000000" points="717.263,1009.43 721.251,1019.88 716.522,1016.9 711.3,1018.89 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="717.263,1009.43 721.251,1019.88 716.522,1016.9 711.3,1018.89 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="445.218" y1="326.8" x2="409.961" y2="241.931"/>
+    <polygon style="fill: #000000" points="407.084,235.005 415.538,242.322 409.961,241.931 406.303,246.158 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="407.084,235.005 415.538,242.322 409.961,241.931 406.303,246.158 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="755.186" y1="943.162" x2="760.261" y2="736.533"/>
+    <polygon style="fill: #000000" points="760.445,729.035 765.198,739.155 760.261,736.533 755.201,738.91 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="760.445,729.035 765.198,739.155 760.261,736.533 755.201,738.91 "/>
+  </g>
+  <g>
+    <rect style="fill: #1e90e5" x="609.5" y="653.984" width="431" height="150.816"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="609.5" y="653.984" width="431" height="150.816"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Consolas;font-style:normal;font-weight:normal" x="825" y="677.273">
+      <tspan x="825" y="677.273">myapp/src/controllers/</tspan>
+      <tspan x="825" y="693.273">     ├── articles.rs</tspan>
+      <tspan x="825" y="709.273"> ├── auth.rs</tspan>
+      <tspan x="825" y="725.273">  ├── guide.rs</tspan>
+      <tspan x="825" y="741.273">├── mod.rs</tspan>
+      <tspan x="825" y="757.273">  ├── notes.rs</tspan>
+      <tspan x="825" y="773.273"> └── user.rs</tspan>
+      <tspan x="825" y="789.273"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #fffa00" x="917.528" y="314.996" width="170.972" height="102"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="917.528" y="314.996" width="170.972" height="102"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1003.01" y="337.877">
+      <tspan x="1003.01" y="337.877">myapp/src/views/</tspan>
+      <tspan x="1003.01" y="353.877">├── auth.rs</tspan>
+      <tspan x="1003.01" y="369.877">├── mod.rs</tspan>
+      <tspan x="1003.01" y="385.877">└── user.rs</tspan>
+      <tspan x="1003.01" y="401.877"></tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #90ee90" points="755.187,941.237 833.994,985.86 755.187,1030.48 676.38,985.86 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="755.187,941.237 833.994,985.86 755.187,1030.48 676.38,985.86 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="755.187" y="981.741">
+      <tspan x="755.187" y="981.741">Router</tspan>
+      <tspan x="755.187" y="997.741">routes.rs</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1005.5" y1="1100.9" x2="893.612" y2="1178.68"/>
+    <polygon style="fill: #000000" points="887.454,1182.96 892.811,1173.15 893.612,1178.68 898.519,1181.36 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="887.454,1182.96 892.811,1173.15 893.612,1178.68 898.519,1181.36 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="717.25" y1="653.984" x2="953.302" y2="423.793"/>
+    <polygon style="fill: #000000" points="958.671,418.557 955.003,429.118 953.302,423.793 948.021,421.959 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="958.671,418.557 955.003,429.118 953.302,423.793 948.021,421.959 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1045.76" y1="416.996" x2="936.941" y2="645.196"/>
+    <polygon style="fill: #000000" points="933.712,651.966 933.503,640.787 936.941,645.196 942.53,645.091 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="933.712,651.966 933.503,640.787 936.941,645.196 942.53,645.091 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="609.5" y1="767.096" x2="450.575" y2="525.93"/>
+    <polygon style="fill: #000000" points="446.448,519.667 456.126,525.266 450.575,525.93 447.776,530.768 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="446.448,519.667 456.126,525.266 450.575,525.93 447.776,530.768 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="668.226" cy="1106.7" rx="20.4977" ry="19.3865"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="668.226" cy="1106.7" rx="20.4977" ry="19.3865"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="668.226" y="1110.59">
+      <tspan x="668.226" y="1110.59">1</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="458.886" cy="283.082" rx="20.4977" ry="19.3865"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="458.886" cy="283.082" rx="20.4977" ry="19.3865"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="458.886" y="286.963">
+      <tspan x="458.886" y="286.963">4</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="618.444" cy="583.37" rx="20.4977" ry="19.3865"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="618.444" cy="583.37" rx="20.4977" ry="19.3865"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="618.444" y="587.251">
+      <tspan x="618.444" y="587.251">5</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #e5e5e5" points="607.059,1184.24 978.47,1184.24 963.911,1224.24 592.5,1224.24 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="607.059,1184.24 978.47,1184.24 963.911,1224.24 592.5,1224.24 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="785.485" y="1208.12">
+      <tspan x="785.485" y="1208.12">browser</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="554.074" y1="517.8" x2="605.83" y2="644.966"/>
+    <polygon style="fill: #000000" points="608.657,651.913 600.256,644.535 605.83,644.966 609.519,640.766 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="608.657,651.913 600.256,644.535 605.83,644.966 609.519,640.766 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="476.5" y1="232.94" x2="547.871" y2="319.295"/>
+    <polygon style="fill: #000000" points="552.649,325.076 542.425,320.554 547.871,319.295 550.133,314.183 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="552.649,325.076 542.425,320.554 547.871,319.295 550.133,314.183 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="540.512" y="122.5">
+    <tspan x="540.512" y="122.5">WHEN:  01/01/2024 updated.</tspan>
+    <tspan x="540.512" y="138.5">WHO:  T.J. Yang, inspired by https://se-education.org/learningresources/contents/ruby/Rails.html</tspan>
+    <tspan x="540.512" y="154.5">HOW: Diagram using Dia at http://dia-installer.de/download/index.html.en</tspan>
+    <tspan x="540.512" y="170.5"></tspan>
+  </text>
+  <g>
+    <g>
+      <ellipse style="fill: #ffffff" cx="704.688" cy="889.133" rx="19.9592" ry="19.6496"/>
+      <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="704.688" cy="889.133" rx="19.9592" ry="19.6496"/>
+      <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="704.688" y="893.014">
+        <tspan x="704.688" y="893.014">2</tspan>
+      </text>
+    </g>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="615.45" y="893.61">
+      <tspan x="615.45" y="893.61">user#index</tspan>
+    </text>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="156.5" y="171.513">
+    <tspan x="156.5" y="171.513">$ tree -L 3 myapp</tspan>
+    <tspan x="156.5" y="187.513">myapp</tspan>
+    <tspan x="156.5" y="203.513">├── Cargo.lock</tspan>
+    <tspan x="156.5" y="219.513">├── Cargo.toml</tspan>
+    <tspan x="156.5" y="235.513">├── config</tspan>
+    <tspan x="156.5" y="251.513">│   ├── development.yaml</tspan>
+    <tspan x="156.5" y="267.513">│   ├── production.yaml</tspan>
+    <tspan x="156.5" y="283.513">│   └── test.yaml</tspan>
+    <tspan x="156.5" y="299.513">├── examples</tspan>
+    <tspan x="156.5" y="315.513">│   └── playground.rs</tspan>
+    <tspan x="156.5" y="331.513">├── frontend</tspan>
+    <tspan x="156.5" y="347.513">│   ├── dist</tspan>
+    <tspan x="156.5" y="363.513">│   │   ├── assets</tspan>
+    <tspan x="156.5" y="379.513">│   │   └── index.html</tspan>
+    <tspan x="156.5" y="395.513">│   ├── favicon.ico</tspan>
+    <tspan x="156.5" y="411.513">│   ├── index.html</tspan>
+    <tspan x="156.5" y="427.513">│   ├── package.json</tspan>
+    <tspan x="156.5" y="443.513">│   ├── pnpm-lock.yaml</tspan>
+    <tspan x="156.5" y="459.513">│   ├── README.md</tspan>
+    <tspan x="156.5" y="475.513">│   ├── src</tspan>
+    <tspan x="156.5" y="491.513">│   │   ├── index.css</tspan>
+    <tspan x="156.5" y="507.513">│   │   └── main.jsx</tspan>
+    <tspan x="156.5" y="523.513">│   └── vite.config.js</tspan>
+    <tspan x="156.5" y="539.513">├── migration</tspan>
+    <tspan x="156.5" y="555.513">│   ├── Cargo.toml</tspan>
+    <tspan x="156.5" y="571.513">│   ├── README.md</tspan>
+    <tspan x="156.5" y="587.513">│   └── src</tspan>
+    <tspan x="156.5" y="603.513">│       ├── lib.rs</tspan>
+    <tspan x="156.5" y="619.513">│       ├── m20220101_000001_users.rs</tspan>
+    <tspan x="156.5" y="635.513">│       ├── m20231103_114510_notes.rs</tspan>
+    <tspan x="156.5" y="651.513">│       ├── m20240101_031322_articles.rs</tspan>
+    <tspan x="156.5" y="667.513">│       └── main.rs</tspan>
+    <tspan x="156.5" y="683.513">├── README.md</tspan>
+    <tspan x="156.5" y="699.513">├── src</tspan>
+    <tspan x="156.5" y="715.513">│   ├── app.rs</tspan>
+    <tspan x="156.5" y="731.513">│   ├── bin</tspan>
+    <tspan x="156.5" y="747.513">│   │   └── main.rs</tspan>
+    <tspan x="156.5" y="763.513">│   ├── controllers</tspan>
+    <tspan x="156.5" y="779.513">│   │   ├── articles.rs</tspan>
+    <tspan x="156.5" y="795.513">│   │   ├── auth.rs</tspan>
+    <tspan x="156.5" y="811.513">│   │   ├── guide.rs</tspan>
+    <tspan x="156.5" y="827.513">│   │   ├── mod.rs</tspan>
+    <tspan x="156.5" y="843.513">│   │   ├── notes.rs</tspan>
+    <tspan x="156.5" y="859.513">│   │   └── user.rs</tspan>
+    <tspan x="156.5" y="875.513">│   ├── fixtures</tspan>
+    <tspan x="156.5" y="891.513">│   │   ├── notes.yaml</tspan>
+    <tspan x="156.5" y="907.513">│   │   └── users.yaml</tspan>
+    <tspan x="156.5" y="923.513">│   ├── lib.rs</tspan>
+    <tspan x="156.5" y="939.513">│   ├── mailers</tspan>
+    <tspan x="156.5" y="955.513">│   │   ├── auth</tspan>
+    <tspan x="156.5" y="971.513">│   │   ├── auth.rs</tspan>
+    <tspan x="156.5" y="987.513">│   │   └── mod.rs</tspan>
+    <tspan x="156.5" y="1003.51">│   ├── models</tspan>
+    <tspan x="156.5" y="1019.51">│   │   ├── articles.rs</tspan>
+    <tspan x="156.5" y="1035.51">│   │   ├── _entities</tspan>
+    <tspan x="156.5" y="1051.51">│   │   ├── mod.rs</tspan>
+    <tspan x="156.5" y="1067.51">│   │   ├── notes.rs</tspan>
+    <tspan x="156.5" y="1083.51">│   │   └── users.rs</tspan>
+    <tspan x="156.5" y="1099.51">│   ├── tasks</tspan>
+    <tspan x="156.5" y="1115.51">│   │   ├── mod.rs</tspan>
+    <tspan x="156.5" y="1131.51">│   │   └── seed.rs</tspan>
+    <tspan x="156.5" y="1147.51">│   ├── views</tspan>
+    <tspan x="156.5" y="1163.51">│   │   ├── auth.rs</tspan>
+    <tspan x="156.5" y="1179.51">│   │   ├── mod.rs</tspan>
+    <tspan x="156.5" y="1195.51">│   │   └── user.rs</tspan>
+    <tspan x="156.5" y="1211.51">│   └── workers</tspan>
+    <tspan x="156.5" y="1227.51">│       ├── downloader.rs</tspan>
+    <tspan x="156.5" y="1243.51">│       └── mod.rs</tspan>
+    <tspan x="156.5" y="1259.51">└── tests</tspan>
+    <tspan x="156.5" y="1275.51">    ├── models</tspan>
+    <tspan x="156.5" y="1291.51">    │   ├── articles.rs</tspan>
+    <tspan x="156.5" y="1307.51">    │   ├── mod.rs</tspan>
+    <tspan x="156.5" y="1323.51">    │   ├── snapshots</tspan>
+    <tspan x="156.5" y="1339.51">    │   └── users.rs</tspan>
+    <tspan x="156.5" y="1355.51">    ├── mod.rs</tspan>
+    <tspan x="156.5" y="1371.51">    ├── requests</tspan>
+    <tspan x="156.5" y="1387.51">    │   ├── articles.rs</tspan>
+    <tspan x="156.5" y="1403.51">    │   ├── auth.rs</tspan>
+    <tspan x="156.5" y="1419.51">    │   ├── guide.rs</tspan>
+    <tspan x="156.5" y="1435.51">    │   ├── mod.rs</tspan>
+    <tspan x="156.5" y="1451.51">    │   ├── notes.rs</tspan>
+    <tspan x="156.5" y="1467.51">    │   ├── prepare_data.rs</tspan>
+    <tspan x="156.5" y="1483.51">    │   ├── snapshots</tspan>
+    <tspan x="156.5" y="1499.51">    │   └── user.rs</tspan>
+    <tspan x="156.5" y="1515.51">    └── tasks</tspan>
+    <tspan x="156.5" y="1531.51">        ├── mod.rs</tspan>
+    <tspan x="156.5" y="1547.51">        └── seed.rs</tspan>
+    <tspan x="156.5" y="1563.51"></tspan>
+    <tspan x="156.5" y="1579.51">25 directories, 60 files</tspan>
+    <tspan x="156.5" y="1595.51">$</tspan>
+    <tspan x="156.5" y="1611.51"></tspan>
+  </text>
+  <g>
+    <path style="fill: #bfbfbf" d="M 562.4 194.428 C 576.455,186.607 583.482,184 597.537,184 C 611.592,184 618.62,186.607 632.674,194.428 L 632.674,236.14 C 618.62,243.962 611.592,246.569 597.537,246.569 C 583.482,246.569 576.455,243.962 562.4,236.14 L 562.4,194.428z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 562.4 194.428 C 576.455,186.607 583.482,184 597.537,184 C 611.592,184 618.62,186.607 632.674,194.428 L 632.674,236.14 C 618.62,243.962 611.592,246.569 597.537,246.569 C 583.482,246.569 576.455,243.962 562.4,236.14 L 562.4,194.428"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 562.4 194.428 C 576.455,202.249 583.482,204.856 597.537,204.856 C 611.592,204.856 618.62,202.249 632.674,194.428"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="597.537" y="224.38">
+      <tspan x="597.537" y="224.38">Redis</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #bfbfbf" x="859.5" y="191.8" width="135.472" height="52.8074"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="859.5" y="191.8" width="135.472" height="52.8074"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="927.236" y="222.085">
+      <tspan x="927.236" y="222.085">mailer</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1040.5" y1="804.8" x2="1012.47" y2="832.106"/>
+    <polygon style="fill: #000000" points="1007.1,837.34 1010.77,826.78 1012.47,832.106 1017.75,833.942 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1007.1,837.34 1010.77,826.78 1012.47,832.106 1017.75,833.942 "/>
+  </g>
+  <g>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="933.772" y="1088.05">
+      <tspan x="933.772" y="1088.05">HTML</tspan>
+    </text>
+    <g>
+      <rect style="fill: #fffa00" x="919.5" y="838.9" width="172" height="262"/>
+      <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="919.5" y="838.9" width="172" height="262"/>
+      <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1005.5" y="861.781">
+        <tspan x="1005.5" y="861.781"></tspan>
+        <tspan x="1005.5" y="877.781"></tspan>
+        <tspan x="1005.5" y="893.781"></tspan>
+        <tspan x="1005.5" y="909.781"></tspan>
+        <tspan x="1005.5" y="925.781"></tspan>
+        <tspan x="1005.5" y="941.781"></tspan>
+        <tspan x="1005.5" y="957.781"></tspan>
+        <tspan x="1005.5" y="973.781"></tspan>
+        <tspan x="1005.5" y="989.781"></tspan>
+        <tspan x="1005.5" y="1005.78"></tspan>
+        <tspan x="1005.5" y="1021.78"></tspan>
+        <tspan x="1005.5" y="1037.78"></tspan>
+        <tspan x="1005.5" y="1053.78"></tspan>
+        <tspan x="1005.5" y="1069.78"></tspan>
+        <tspan x="1005.5" y="1085.78"></tspan>
+      </text>
+    </g>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="951.5" y="868.8">
+      <tspan x="951.5" y="868.8">frontend</tspan>
+      <tspan x="951.5" y="884.8">├── dist</tspan>
+      <tspan x="951.5" y="900.8">│   ├── assets</tspan>
+      <tspan x="951.5" y="916.8">│   └── index.html</tspan>
+      <tspan x="951.5" y="932.8">├── favicon.ico</tspan>
+      <tspan x="951.5" y="948.8">├── index.html</tspan>
+      <tspan x="951.5" y="964.8">├── package.json</tspan>
+      <tspan x="951.5" y="980.8">├── pnpm-lock.yaml</tspan>
+      <tspan x="951.5" y="996.8">├── README.md</tspan>
+      <tspan x="951.5" y="1012.8">├── src</tspan>
+      <tspan x="951.5" y="1028.8">│   ├── index.css</tspan>
+      <tspan x="951.5" y="1044.8">│   └── main.jsx</tspan>
+      <tspan x="951.5" y="1060.8">└── vite.config.js</tspan>
+      <tspan x="951.5" y="1076.8"></tspan>
+    </text>
+  </g>
+  <g>
+    <g>
+      <ellipse style="fill: #ffffff" cx="1052.06" cy="512.055" rx="22.819" ry="20.7251"/>
+      <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1052.06" cy="512.055" rx="22.819" ry="20.7251"/>
+      <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1052.06" y="515.936">
+        <tspan x="1052.06" y="515.936">7</tspan>
+      </text>
+    </g>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1086.31" y="514.42">
+      <tspan x="1086.31" y="514.42">HTML</tspan>
+    </text>
+  </g>
+  <g>
+    <g>
+      <ellipse style="fill: #ffffff" cx="822.392" cy="483.91" rx="20.4977" ry="19.3865"/>
+      <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="822.392" cy="483.91" rx="20.4977" ry="19.3865"/>
+      <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="822.392" y="487.791">
+        <tspan x="822.392" y="487.791">6</tspan>
+      </text>
+    </g>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="801.632" y="523.928">
+      <tspan x="801.632" y="523.928">@users</tspan>
+    </text>
+  </g>
+  <g>
+    <g>
+      <ellipse style="fill: #ffffff" cx="1014.04" cy="1146.9" rx="22.439" ry="18.6626"/>
+      <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1014.04" cy="1146.9" rx="22.439" ry="18.6626"/>
+      <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1014.04" y="1150.79">
+        <tspan x="1014.04" y="1150.79">8</tspan>
+      </text>
+    </g>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1063.5" y="1149.8">
+      <tspan x="1063.5" y="1149.8">HTML</tspan>
+    </text>
+  </g>
+  <text font-size="22.5778" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="386" y="105.8">
+    <tspan x="386" y="105.8">WHAT: MVC dataflow diagram  for loco saas app with postgresql DB and redis servers</tspan>
+    <tspan x="386" y="134.022"></tspan>
+    <tspan x="386" y="162.244"></tspan>
+  </text>
+  <g>
+    <g>
+      <rect style="fill: #ff0000" x="390.792" y="326.8" width="217.708" height="191"/>
+      <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="390.792" y="326.8" width="217.708" height="191"/>
+      <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="499.646" y="426.181">
+        <tspan x="499.646" y="426.181"></tspan>
+      </text>
+    </g>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="611.14" y="458.348">
+      <tspan x="611.14" y="458.348"></tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="433.5" y="345.8">
+      <tspan x="433.5" y="345.8">src/models/</tspan>
+      <tspan x="433.5" y="361.8">├── articles.rs</tspan>
+      <tspan x="433.5" y="377.8">├── _entities</tspan>
+      <tspan x="433.5" y="393.8">│   ├── articles.rs</tspan>
+      <tspan x="433.5" y="409.8">│   ├── mod.rs</tspan>
+      <tspan x="433.5" y="425.8">│   ├── notes.rs</tspan>
+      <tspan x="433.5" y="441.8">│   ├── prelude.rs</tspan>
+      <tspan x="433.5" y="457.8">│   └── users.rs</tspan>
+      <tspan x="433.5" y="473.8">├── mod.rs</tspan>
+      <tspan x="433.5" y="489.8">├── notes.rs</tspan>
+      <tspan x="433.5" y="505.8">└── users.rs</tspan>
+    </text>
+  </g>
+  <g>
+    <g>
+      <ellipse style="fill: #ffffff" cx="491.56" cy="648.22" rx="20.4977" ry="19.3865"/>
+      <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="491.56" cy="648.22" rx="20.4977" ry="19.3865"/>
+      <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="491.56" y="652.101">
+        <tspan x="491.56" y="652.101">3</tspan>
+      </text>
+    </g>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="425.624" y="653.038">
+      <tspan x="425.624" y="653.038">User.all</tspan>
+    </text>
+  </g>
+</svg>
