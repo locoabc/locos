@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="60cm" height="77cm" viewBox="156 84 1195 1530" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="60cm" height="81cm" viewBox="156 84 1195 1602" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g>
     <path style="fill: #bfbfbf" d="M 406.226 191.228 C 420.281,183.407 427.308,180.8 441.363,180.8 C 455.418,180.8 462.446,183.407 476.5,191.228 L 476.5,232.94 C 462.446,240.762 455.418,243.369 441.363,243.369 C 427.308,243.369 420.281,240.762 406.226,232.94 L 406.226,191.228z"/>
     <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 406.226 191.228 C 420.281,183.407 427.308,180.8 441.363,180.8 C 455.418,180.8 462.446,183.407 476.5,191.228 L 476.5,232.94 C 462.446,240.762 455.418,243.369 441.363,243.369 C 427.308,243.369 420.281,240.762 406.226,232.94 L 406.226,191.228"/>
@@ -10,9 +10,9 @@
     </text>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="699.912" y1="1184.24" x2="716.522" y2="1016.9"/>
-    <polygon style="fill: #000000" points="717.263,1009.43 721.251,1019.88 716.522,1016.9 711.3,1018.89 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="717.263,1009.43 721.251,1019.88 716.522,1016.9 711.3,1018.89 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="699.912" y1="1184.24" x2="482.547" y2="1057.3"/>
+    <polygon style="fill: #000000" points="476.071,1053.52 487.228,1054.24 482.547,1057.3 482.185,1062.88 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="476.071,1053.52 487.228,1054.24 482.547,1057.3 482.185,1062.88 "/>
   </g>
   <g>
     <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="445.218" y1="326.8" x2="409.961" y2="241.931"/>
@@ -20,22 +20,22 @@
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="407.084,235.005 415.538,242.322 409.961,241.931 406.303,246.158 "/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="755.186" y1="943.162" x2="760.261" y2="736.533"/>
-    <polygon style="fill: #000000" points="760.445,729.035 765.198,739.155 760.261,736.533 755.201,738.91 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="760.445,729.035 765.198,739.155 760.261,736.533 755.201,738.91 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="474.14" y1="900.162" x2="752.171" y2="731.842"/>
+    <polygon style="fill: #000000" points="758.587,727.958 752.622,737.414 752.171,731.842 747.443,728.86 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="758.587,727.958 752.622,737.414 752.171,731.842 747.443,728.86 "/>
   </g>
   <g>
-    <rect style="fill: #e5e5e5" x="609.5" y="653.984" width="431" height="150.816"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="609.5" y="653.984" width="431" height="150.816"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Consolas;font-style:normal;font-weight:normal" x="825" y="677.273">
-      <tspan x="825" y="677.273">myapp/src/controllers/</tspan>
-      <tspan x="825" y="693.273">     ├── articles.rs</tspan>
-      <tspan x="825" y="709.273"> ├── auth.rs</tspan>
-      <tspan x="825" y="725.273">  ├── guide.rs</tspan>
-      <tspan x="825" y="741.273">├── mod.rs</tspan>
-      <tspan x="825" y="757.273">  ├── notes.rs</tspan>
-      <tspan x="825" y="773.273"> └── user.rs</tspan>
-      <tspan x="825" y="789.273"></tspan>
+    <rect style="fill: #e5e5e5" x="609.5" y="653.984" width="431" height="150"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="609.5" y="653.984" width="431" height="150"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Consolas;font-style:normal;font-weight:normal" x="825" y="676.865">
+      <tspan x="825" y="676.865">myapp/src/controllers/</tspan>
+      <tspan x="825" y="692.865">     ├── articles.rs</tspan>
+      <tspan x="825" y="708.865"> ├── auth.rs</tspan>
+      <tspan x="825" y="724.865">  ├── guide.rs</tspan>
+      <tspan x="825" y="740.865">├── mod.rs</tspan>
+      <tspan x="825" y="756.865">  ├── notes.rs</tspan>
+      <tspan x="825" y="772.865"> └── user.rs</tspan>
+      <tspan x="825" y="788.865"></tspan>
     </text>
   </g>
   <g>
@@ -50,11 +50,11 @@
     </text>
   </g>
   <g>
-    <polygon style="fill: #90ee90" points="755.187,941.237 833.994,985.86 755.187,1030.48 676.38,985.86 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="755.187,941.237 833.994,985.86 755.187,1030.48 676.38,985.86 "/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="755.187" y="981.741">
-      <tspan x="755.187" y="981.741">Router</tspan>
-      <tspan x="755.187" y="997.741">routes.rs</tspan>
+    <polygon style="fill: #90ee90" points="474.14,900.162 594.5,976.277 474.14,1052.39 353.78,976.277 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="474.14,900.162 594.5,976.277 474.14,1052.39 353.78,976.277 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="474.14" y="972.158">
+      <tspan x="474.14" y="972.158">Router</tspan>
+      <tspan x="474.14" y="988.158">routes.rs</tspan>
     </text>
   </g>
   <g>
@@ -73,15 +73,15 @@
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="933.712,651.966 933.503,640.787 936.941,645.196 942.53,645.091 "/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="609.5" y1="767.096" x2="450.575" y2="525.93"/>
-    <polygon style="fill: #000000" points="446.448,519.667 456.126,525.266 450.575,525.93 447.776,530.768 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="446.448,519.667 456.126,525.266 450.575,525.93 447.776,530.768 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="609.5" y1="766.484" x2="450.584" y2="525.924"/>
+    <polygon style="fill: #000000" points="446.451,519.666 456.134,525.254 450.584,525.924 447.791,530.765 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="446.451,519.666 456.134,525.254 450.584,525.924 447.791,530.765 "/>
   </g>
   <g>
-    <ellipse style="fill: #ffffff" cx="668.226" cy="1106.7" rx="20.4977" ry="19.3865"/>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="668.226" cy="1106.7" rx="20.4977" ry="19.3865"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="668.226" y="1110.59">
-      <tspan x="668.226" y="1110.59">1</tspan>
+    <ellipse style="fill: #ffffff" cx="732.226" cy="1248.7" rx="20.4977" ry="19.3865"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="732.226" cy="1248.7" rx="20.4977" ry="19.3865"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="732.226" y="1252.59">
+      <tspan x="732.226" y="1252.59">1</tspan>
     </text>
   </g>
   <g>
@@ -102,7 +102,7 @@
     <polygon style="fill: #e5e5e5" points="607.059,1184.24 978.47,1184.24 963.911,1224.24 592.5,1224.24 "/>
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="607.059,1184.24 978.47,1184.24 963.911,1224.24 592.5,1224.24 "/>
     <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="785.485" y="1208.12">
-      <tspan x="785.485" y="1208.12">browser</tspan>
+      <tspan x="785.485" y="1208.12">http://localhost:3000/api/user/current</tspan>
     </text>
   </g>
   <g>
@@ -123,14 +123,14 @@
   </text>
   <g>
     <g>
-      <ellipse style="fill: #ffffff" cx="704.688" cy="889.133" rx="19.9592" ry="19.6496"/>
-      <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="704.688" cy="889.133" rx="19.9592" ry="19.6496"/>
-      <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="704.688" y="893.014">
-        <tspan x="704.688" y="893.014">2</tspan>
+      <ellipse style="fill: #ffffff" cx="506.688" cy="846.133" rx="19.9592" ry="19.6496"/>
+      <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="506.688" cy="846.133" rx="19.9592" ry="19.6496"/>
+      <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="506.688" y="850.014">
+        <tspan x="506.688" y="850.014">2</tspan>
       </text>
     </g>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="615.45" y="893.61">
-      <tspan x="615.45" y="893.61">user#index</tspan>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="417.45" y="850.61">
+      <tspan x="417.45" y="850.61">user#index</tspan>
     </text>
   </g>
   <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="156.5" y="171.513">
@@ -242,9 +242,9 @@
     </text>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1040.5" y1="804.8" x2="1012.47" y2="832.106"/>
-    <polygon style="fill: #000000" points="1007.1,837.34 1010.77,826.78 1012.47,832.106 1017.75,833.942 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1007.1,837.34 1010.77,826.78 1012.47,832.106 1017.75,833.942 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1040.5" y1="803.984" x2="1012.39" y2="832.024"/>
+    <polygon style="fill: #000000" points="1007.08,837.321 1010.63,826.718 1012.39,832.024 1017.69,833.798 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1007.08,837.321 1010.63,826.718 1012.39,832.024 1017.69,833.798 "/>
   </g>
   <g>
     <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="933.772" y="1088.05">
@@ -366,4 +366,45 @@
       <tspan x="475.624" y="747.038">User.all</tspan>
     </text>
   </g>
+  <text font-size="160" style="fill: #bfbfbf;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="611.5" y="1648.39">
+    <tspan x="611.5" y="1648.39">Draft</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="622.5" y="868.392">
+    <tspan x="622.5" y="868.392">[GET] /api/_health</tspan>
+    <tspan x="622.5" y="884.392">[GET] /api/_ping</tspan>
+    <tspan x="622.5" y="900.392">[GET] /api/articles</tspan>
+    <tspan x="622.5" y="916.392">[POST] /api/auth/forgot</tspan>
+    <tspan x="622.5" y="932.392">[POST] /api/auth/login</tspan>
+    <tspan x="622.5" y="948.392">[POST] /api/auth/register</tspan>
+    <tspan x="622.5" y="964.392">[POST] /api/auth/reset</tspan>
+    <tspan x="622.5" y="980.392">[POST] /api/auth/verify</tspan>
+    <tspan x="622.5" y="996.392">[GET] /api/guide</tspan>
+    <tspan x="622.5" y="1012.39">[POST] /api/guide/echo</tspan>
+    <tspan x="622.5" y="1028.39">[GET] /api/notes</tspan>
+    <tspan x="622.5" y="1044.39">[POST] /api/notes</tspan>
+    <tspan x="622.5" y="1060.39">[GET] /api/notes/:id</tspan>
+    <tspan x="622.5" y="1076.39">[DELETE] /api/notes/:id</tspan>
+    <tspan x="622.5" y="1092.39">[POST] /api/notes/:id</tspan>
+    <tspan x="622.5" y="1108.39">[GET] /api/user/current</tspan>
+    <tspan x="622.5" y="1124.39"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="608.5" y="1265.39">
+    <tspan x="608.5" y="1265.39"># Health checks</tspan>
+    <tspan x="608.5" y="1281.39">curl localhost:3000/api/_ping</tspan>
+    <tspan x="608.5" y="1297.39">curl localhost:3000/api/_health</tspan>
+    <tspan x="608.5" y="1313.39"># Hello</tspan>
+    <tspan x="608.5" y="1329.39">curl localhost:3000/api/guide</tspan>
+    <tspan x="608.5" y="1345.39">curl localhost:3000/api/home/hello</tspan>
+    <tspan x="608.5" y="1361.39"></tspan>
+    <tspan x="608.5" y="1377.39"># Post article</tspan>
+    <tspan x="608.5" y="1393.39">curl -X POST -H "Content-Type: application/json" -d '{</tspan>
+    <tspan x="608.5" y="1409.39">  "title": "Your Title",</tspan>
+    <tspan x="608.5" y="1425.39">  "content": "Your Content xxx"</tspan>
+    <tspan x="608.5" y="1441.39">}' localhost:3000/api/articles</tspan>
+    <tspan x="608.5" y="1457.39">curl localhost:3000/api/articles # get a list of artichle</tspan>
+    <tspan x="608.5" y="1473.39"># Users</tspan>
+    <tspan x="608.5" y="1489.39">curl localhost:3000/api/user/current # get name of current users</tspan>
+    <tspan x="608.5" y="1505.39">curl localhost:3000/api/user         # get list of users</tspan>
+    <tspan x="608.5" y="1521.39"></tspan>
+  </text>
 </svg>
