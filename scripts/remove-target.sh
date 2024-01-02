@@ -1,1 +1,1 @@
-find . -type d -name target -exec rm -rf {} \;
+find .. -type d -name target -exec rm -rf {} \;
