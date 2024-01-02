@@ -1,0 +1,94 @@
+   Compiling migration v0.1.0 (/home/me/locos/myapp_saas_sqlite/migration)
+   Compiling myapp_saas_sqlite v0.1.0 (/home/me/locos/myapp_saas_sqlite)
+error[E0308]: mismatched types
+   --> src/models/users.rs:233:65
+    |
+233 |         self.email_verification_sent_at = ActiveValue::set(Some(Local::now().naive_local()));
+    |                                                            ---- ^^^^^^^^^^^^^^^^^^^^^^^^^^- help: try using a conversion method: `.to_string()`
+    |                                                            |    |
+    |                                                            |    expected `String`, found `NaiveDateTime`
+    |                                                            arguments to this enum variant are incorrect
+    |
+help: the type constructed contains `NaiveDateTime` due to the type of the argument passed
+   --> src/models/users.rs:233:60
+    |
+233 |         self.email_verification_sent_at = ActiveValue::set(Some(Local::now().naive_local()));
+    |                                                            ^^^^^--------------------------^
+    |                                                                 |
+    |                                                                 this argument influences the type of `Some`
+note: tuple variant defined here
+   --> /home/me/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/option.rs:577:5
+    |
+577 |     Some(#[stable(feature = "rust1", since = "1.0.0")] T),
+    |     ^^^^
+
+error[E0308]: mismatched types
+   --> src/models/users.rs:266:56
+    |
+266 |         self.email_verified_at = ActiveValue::set(Some(Local::now().naive_local()));
+    |                                                   ---- ^^^^^^^^^^^^^^^^^^^^^^^^^^- help: try using a conversion method: `.to_string()`
+    |                                                   |    |
+    |                                                   |    expected `String`, found `NaiveDateTime`
+    |                                                   arguments to this enum variant are incorrect
+    |
+help: the type constructed contains `NaiveDateTime` due to the type of the argument passed
+   --> src/models/users.rs:266:51
+    |
+266 |         self.email_verified_at = ActiveValue::set(Some(Local::now().naive_local()));
+    |                                                   ^^^^^--------------------------^
+    |                                                        |
+    |                                                        this argument influences the type of `Some`
+note: tuple variant defined here
+   --> /home/me/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/option.rs:577:5
+    |
+577 |     Some(#[stable(feature = "rust1", since = "1.0.0")] T),
+    |     ^^^^
+
+error[E0308]: mismatched types
+   --> src/models/users.rs:251:52
+    |
+251 |         self.reset_sent_at = ActiveValue::set(Some(Local::now().naive_local()));
+    |                                               ---- ^^^^^^^^^^^^^^^^^^^^^^^^^^- help: try using a conversion method: `.to_string()`
+    |                                               |    |
+    |                                               |    expected `String`, found `NaiveDateTime`
+    |                                               arguments to this enum variant are incorrect
+    |
+help: the type constructed contains `NaiveDateTime` due to the type of the argument passed
+   --> src/models/users.rs:251:47
+    |
+251 |         self.reset_sent_at = ActiveValue::set(Some(Local::now().naive_local()));
+    |                                               ^^^^^--------------------------^
+    |                                                    |
+    |                                                    this argument influences the type of `Some`
+note: tuple variant defined here
+   --> /home/me/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/option.rs:577:5
+    |
+577 |     Some(#[stable(feature = "rust1", since = "1.0.0")] T),
+    |     ^^^^
+
+error[E0308]: mismatched types
+  --> src/models/users.rs:55:45
+   |
+55 |                 this.pid = ActiveValue::Set(Uuid::new_v4());
+   |                            ---------------- ^^^^^^^^^^^^^^- help: try using a conversion method: `.to_string()`
+   |                            |                |
+   |                            |                expected `String`, found `Uuid`
+   |                            arguments to this enum variant are incorrect
+   |
+help: the type constructed contains `uuid::Uuid` due to the type of the argument passed
+  --> src/models/users.rs:55:28
+   |
+55 |                 this.pid = ActiveValue::Set(Uuid::new_v4());
+   |                            ^^^^^^^^^^^^^^^^^--------------^
+   |                                             |
+   |                                             this argument influences the type of `ActiveValue`
+note: tuple variant defined here
+  --> /home/me/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sea-orm-0.12.10/src/entity/active_model.rs:44:5
+   |
+44 |     Set(V),
+   |     ^^^
+
+For more information about this error, try `rustc --explain E0308`.
+error: could not compile `myapp_saas_sqlite` (lib) due to 4 previous errors
+warning: build failed, waiting for other jobs to finish...
+[me@rocky8t01d examples]$ 
