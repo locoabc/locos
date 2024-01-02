@@ -13,7 +13,7 @@ echo #LOCO_ENV={test,development,production}
 echo #LOCO_DEPLOYMENT_KIND
 }
 
-echo "$0 appname template={saas|lightweit-service|rest-api} path"
+echo "$0 appname template={saas|lightweit-service|rest-api} -p output-directory"
 echo "LOCO_APP_NAME=\$1 LOCO_TEMPLATE=\$2 loco new -p \$3 "
 # perl pi -e 's!!!' config/development.yaml
 # perl pi -e 's!!!' config/test.yaml
