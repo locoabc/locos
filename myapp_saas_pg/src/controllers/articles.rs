@@ -4,8 +4,7 @@
 use loco_rs::prelude::*;
 use serde::{Deserialize, Serialize};
 
-//use crate::models::_entities::articles::{ActiveModel, Entity, Model};
-use crate::models::_entities::{articles::{self, ActiveModel, Entity, Model},comments,};
+use crate::models::_entities::{articles::{ActiveModel, Entity, Model},comments,};
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
 pub struct Params {

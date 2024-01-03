@@ -5,9 +5,6 @@ use loco_rs::prelude::*;
 use serde::{Deserialize, Serialize};
 
 use crate::models::_entities::comments::{ActiveModel, Entity, Model};
-// to refer to comments::Entity, your imports should look like this:
-//use crate::models::_entities::{articles::{self, ActiveModel, Entity, Model},comments,};
-
 
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
