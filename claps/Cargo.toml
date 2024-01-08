@@ -1,0 +1,11 @@
+[package]
+name = "claps"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#clap = { version = "4.4.13", feactures = ["color","error-context","help","std","suggestions","usage","cargo","debug","deprecated","derive","env","string","unicode","unstable-doc","unstable-styles","unstable-v5","wrap_help"],optional = true}
+
+clap = { version = "4.4.13", default-features = false, features = ["std", "help","cargo","derive"] }
