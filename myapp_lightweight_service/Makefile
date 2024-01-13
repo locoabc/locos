@@ -71,9 +71,12 @@ pdf: .pdf
 	$(foreach var, $(SRC3), (cd ${A2PSTMP};ps2pdf $(var).ps $(var).pdf);)
 	rm -f ${A2PSTMP}/*.ps
 	cp ${A2PSTMP}/*.pdf  ${DOCS}/src
-	rsync -azpv ${A2PSTMP}/src/*  ${DOCS}/src
+	rsync -azpv ${A2PSTMP}/src/*    ${DOCS}/src
+	rsync -azpv ${A2PSTMP}/tests/*  ${DOCS}/tests
 	find ${DOCS}/src/ -type f -name "*.ps" -exec rm -f {} \;
-	find ${DOCS}/src/ -type f 
+	find ${DOCS}/src/ -type f
+	find ${DOCS}/tests/ -type f -name "*.ps" -exec rm -f {} \;
+	find ${DOCS}/tests/ -type f 
 	touch .pdf
 tree: clean
 	tree -L 4 > ${PROJECT_NAME}-dir-layout.txt
