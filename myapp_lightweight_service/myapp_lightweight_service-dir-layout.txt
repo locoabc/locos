@@ -1,0 +1,81 @@
+.
+├── Cargo.lock
+├── Cargo.toml
+├── config
+│   ├── development.yaml
+│   ├── production.yaml
+│   └── test.yaml
+├── docs
+│   ├── src
+│   │   ├── app.rs.pdf
+│   │   ├── bin
+│   │   │   └── main.rs.pdf
+│   │   ├── Cargo.toml.pdf
+│   │   ├── controllers
+│   │   │   ├── guide.rs.pdf
+│   │   │   ├── home2.rs.pdf
+│   │   │   ├── home.rs.pdf
+│   │   │   └── mod.rs.pdf
+│   │   ├── lib.rs.pdf
+│   │   ├── Makefile.pdf
+│   │   └── views
+│   │       ├── home.rs.pdf
+│   │       └── mod.rs.pdf
+│   └── tests
+│       └── requests
+│           ├── guide.rs.pdf
+│           ├── home2.rs.pdf
+│           ├── home.rs.pdf
+│           ├── mod.rs.pdf
+│           └── snapshots
+├── Makefile
+├── myapp_lightweight_service-dir-layout.txt
+├── README.md
+├── rexpect-examples-dir-layout.txt
+├── src
+│   ├── app.rs
+│   ├── bin
+│   │   └── main.rs
+│   ├── controllers
+│   │   ├── guide.rs
+│   │   ├── home2.rs
+│   │   ├── home.rs
+│   │   └── mod.rs
+│   ├── lib.rs
+│   └── views
+│       ├── home.rs
+│       └── mod.rs
+├── tests
+│   ├── mod.rs
+│   └── requests
+│       ├── guide.rs
+│       ├── home2.rs
+│       ├── home.rs
+│       ├── mod.rs
+│       └── snapshots
+│           ├── can_get_home2@home2_request.snap
+│           ├── can_get_home@home_request.snap
+│           └── home2_request.snap
+└── tmp
+    ├── src
+    │   ├── app.rs.pdf
+    │   ├── bin
+    │   │   └── main.rs.pdf
+    │   ├── controllers
+    │   │   ├── guide.rs.pdf
+    │   │   ├── home2.rs.pdf
+    │   │   ├── home.rs.pdf
+    │   │   └── mod.rs.pdf
+    │   ├── lib.rs.pdf
+    │   └── views
+    │       ├── home.rs.pdf
+    │       └── mod.rs.pdf
+    └── tests
+        └── requests
+            ├── guide.rs.pdf
+            ├── home2.rs.pdf
+            ├── home.rs.pdf
+            ├── mod.rs.pdf
+            └── snapshots
+
+24 directories, 54 files

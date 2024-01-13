@@ -6,7 +6,8 @@ NEWRELEASE	= $(shell echo $$(($(RELEASE) + 1)))
 PROJECT_NAME    = myapp_lightweight_service
 TOPDIR = $(shell pwd)
 MANPAGES =
-A2PS2S1C  = /usr/bin/enscript -H1 --highlight-bar-gray=08 -fCourier8 -Ebash
+#A2PS2S1C  = /usr/bin/enscript -H1 --highlight-bar-gray=08 -fCourier8 -Ebash
+A2PS2S1C  = /usr/bin/enscript -H1 --highlight-bar-gray=08 -fCourier8 -Ebash  --non-printable-format=space
 #A2PS2S1C  = /usr/bin/enscript -H1 --highlight-bar-gray=08 -fconsolars7 -Ebash
 A2PSTMP   = ./tmp
 DOCS      = ./docs
