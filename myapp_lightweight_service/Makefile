@@ -62,7 +62,11 @@ cleantmp:
 
 allpdf: .pdf
 	touch .pdf
-	cp docs/src/*.pdf /mnt/hgfs/vmware
+	rm -f ${A2PSTMP}/*.pdf
+	find  docs  -type f -name *.pdf -exec cp {}  ${A2PSTMP}/  \;
+	rm -f /mnt/hgfs/vmware/*.pdf
+	cp -f ${A2PSTMP}/*.pdf  /mnt/hgfs/vmware/
+	ls -lrt  /mnt/hgfs/vmware/*.pdf
 
 
 pdf: .pdf
