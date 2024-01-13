@@ -1,14 +1,12 @@
-use myapp_lightweight_service::app::App;
 use loco_rs::testing;
+use myapp_lightweight_service::app::App;
 use serial_test::serial;
 
 #[tokio::test]
 #[serial]
 async fn can_get_echo() {
     testing::request::<App, _, _>(|request, _ctx| async move {
-        let payload = serde_json::json!({
-
-        });
+        let payload = serde_json::json!({});
 
         let res = request.post("/guide/echo").json(&payload).await;
         // assert_eq!(res.status_code(), 200);
@@ -26,8 +24,6 @@ async fn can_request_root() {
         assert_eq!(res.status_code(), 404);
         //assert_eq!(res.text(), "hello");
         assert_eq!(res.text(), "");
-       
-
     })
     .await;
 }
