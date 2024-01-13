@@ -1,0 +1,129 @@
+.
+├── Cargo.lock
+├── Cargo.toml
+├── config
+│   ├── development.yaml
+│   ├── production.yaml
+│   └── test.yaml
+├── examples
+│   └── playground.rs
+├── frontend
+│   ├── dist
+│   │   ├── assets
+│   │   │   ├── favicon-WRxYIZSq.ico
+│   │   │   ├── index-9xajtB06.js
+│   │   │   └── index-NNfN60X4.css
+│   │   └── index.html
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── package.json
+│   ├── pnpm-lock.yaml
+│   ├── README.md
+│   ├── src
+│   │   ├── index.css
+│   │   └── main.jsx
+│   └── vite.config.js
+├── Makefile
+├── migration
+│   ├── Cargo.toml
+│   ├── README.md
+│   └── src
+│       ├── lib.rs
+│       ├── m20220101_000001_users.rs
+│       ├── m20231103_114510_notes.rs
+│       ├── m20240102_234700_articles.rs
+│       ├── m20240103_004153_comments.rs
+│       └── main.rs
+├── myapp_saas_pg-dir-layout.txt
+├── README.md
+├── src
+│   ├── app.rs
+│   ├── bin
+│   │   └── main.rs
+│   ├── controllers
+│   │   ├── articles.rs
+│   │   ├── auth.rs
+│   │   ├── comment.rs
+│   │   ├── guide.rs
+│   │   ├── home.rs
+│   │   ├── mod.rs
+│   │   ├── notes.rs
+│   │   └── user.rs
+│   ├── fixtures
+│   │   ├── notes.yaml
+│   │   └── users.yaml
+│   ├── lib.rs
+│   ├── mailers
+│   │   ├── auth
+│   │   │   ├── forgot
+│   │   │   └── welcome
+│   │   ├── auth.rs
+│   │   └── mod.rs
+│   ├── models
+│   │   ├── articles.rs
+│   │   ├── comments.rs
+│   │   ├── _entities
+│   │   │   ├── articles.rs
+│   │   │   ├── comments.rs
+│   │   │   ├── mod.rs
+│   │   │   ├── notes.rs
+│   │   │   ├── prelude.rs
+│   │   │   └── users.rs
+│   │   ├── mod.rs
+│   │   ├── notes.rs
+│   │   └── users.rs
+│   ├── tasks
+│   │   ├── mod.rs
+│   │   └── seed.rs
+│   ├── views
+│   │   ├── auth.rs
+│   │   ├── mod.rs
+│   │   └── user.rs
+│   └── workers
+│       ├── downloader.rs
+│       └── mod.rs
+├── start-myapp_saas_pg.sh
+└── tests
+    ├── models
+    │   ├── articles.rs
+    │   ├── comments.rs
+    │   ├── mod.rs
+    │   ├── snapshots
+    │   │   ├── can_create_with_password@users.snap
+    │   │   ├── can_find_by_email-2@users.snap
+    │   │   ├── can_find_by_email@users-2.snap
+    │   │   ├── can_find_by_email@users.snap
+    │   │   ├── can_find_by_pid-2@users.snap
+    │   │   ├── can_find_by_pid@users-2.snap
+    │   │   ├── can_find_by_pid@users.snap
+    │   │   ├── can_validate_model@users.snap
+    │   │   └── handle_create_with_password_with_duplicate@users.snap
+    │   └── users.rs
+    ├── mod.rs
+    ├── requests
+    │   ├── articles.rs
+    │   ├── auth.rs
+    │   ├── comment.rs
+    │   ├── guide.rs
+    │   ├── mod.rs
+    │   ├── notes.rs
+    │   ├── prepare_data.rs
+    │   ├── snapshots
+    │   │   ├── can_add_note@notes_request.snap
+    │   │   ├── can_delete_note@notes_request.snap
+    │   │   ├── can_get_current_user@auth_request.snap
+    │   │   ├── can_get_note@notes_request.snap
+    │   │   ├── can_get_notes@notes_request.snap
+    │   │   ├── can_login_without_verify@auth_request.snap
+    │   │   ├── can_register@auth_request-2.snap
+    │   │   ├── can_register@auth_request.snap
+    │   │   ├── can_reset_password@auth_request-2.snap
+    │   │   ├── can_reset_password@auth_request.snap
+    │   │   ├── login_with_invalid_password@auth_request.snap
+    │   │   └── login_with_valid_password@auth_request.snap
+    │   └── user.rs
+    └── tasks
+        ├── mod.rs
+        └── seed.rs
+
+27 directories, 99 files
