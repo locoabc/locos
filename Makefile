@@ -35,7 +35,7 @@ clean: cleantmp
 	-rm -rf docs/*.1
 	-find . -type f -name *~   -exec rm -f {} \;
 	-find . -type f -name *.ps  -exec rm -f {} \;
-#	-find . -type d -name target  -exec rm -rf {} \;
+	-find . -type d -name target  -exec rm -rf {} \;
 
 clean_hard:
 	-rm -rf $(shell $(PYTHON) -c "from distutils.sysconfig import get_python_lib; print get_python_lib()")/adagios 
