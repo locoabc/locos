@@ -36,6 +36,7 @@ impl Hooks for App {
             .add_route(controllers::guide::routes())
             .prefix("/api")
             .add_route(controllers::home::routes())
+            .add_route(controllers::home2::routes())
     }
 
     fn connect_workers<'a>(_p: &'a mut Processor, _ctx: &'a AppContext) {}

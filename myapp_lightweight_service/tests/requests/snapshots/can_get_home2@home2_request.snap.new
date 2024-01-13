@@ -1,0 +1,9 @@
+---
+source: tests/requests/home2.rs
+assertion_line: 25
+expression: "(notes.status_code(), notes.text())"
+---
+(
+    404,
+    "",
+)
