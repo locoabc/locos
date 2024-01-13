@@ -3,7 +3,7 @@ VERSION		= 1.0
 RELEASE		= 2
 DATE		= $(shell date)
 NEWRELEASE	= $(shell echo $$(($(RELEASE) + 1)))
-PROJECT_NAME    = rexpect-examples
+PROJECT_NAME    = myapp_lightweight_service
 TOPDIR = $(shell pwd)
 MANPAGES =
 A2PS2S1C  = /usr/bin/enscript -H1 --highlight-bar-gray=08 -fCourier8 -Ebash
@@ -32,8 +32,9 @@ manpage:
 clean: cleantmp
 	-rm -rf *~ 
 	-rm -rf docs/*.1
-	-find . -type f -name *~  -exec rm -f {} \;
-	-find . -type d -name target  -exec rm -rf {} \;
+	-find . -type f -name *~   -exec rm -f {} \;
+	-find . -type f -name *.ps  -exec rm -f {} \;
+#	-find . -type d -name target  -exec rm -rf {} \;
 
 clean_hard:
 	-rm -rf $(shell $(PYTHON) -c "from distutils.sysconfig import get_python_lib; print get_python_lib()")/adagios 
@@ -43,7 +44,7 @@ clean_hardest: clean_rpms
 
 #Ref: https://stackoverflow.com/questions/1490949/how-to-write-loop-in-a-makefile
 # MANIFEST  
-SRC1= Makefile Cargo.toml 
+SRC1= Makefile Cargo.toml myapp_lightweight_service-dir-layout.txt
 SRC2= src/app.rs	src/bin/main.rs  src/controllers/guide.rs  src/controllers/home2.rs  src/controllers/home.rs  src/controllers/mod.rs  src/lib.rs  src/views/home.rs  src/views/mod.rs
 SRC3= tests/requests/guide.rs  tests/requests/home2.rs  tests/requests/home.rs  tests/requests/mod.rs  tests/requests/snapshots/can_get_home2@home2_request.snap  tests/requests/snapshots/home2_request.snap tests/requests/snapshots/can_get_home@home_request.snap
 #SRC2= manage.py profiles_projects-dir-layout.txt
@@ -70,7 +71,7 @@ pdf: .pdf
 	$(foreach var, $(SRC2), (cd ${A2PSTMP};ps2pdf $(var).ps $(var).pdf);)
 	$(foreach var, $(SRC3), (cd ${A2PSTMP};ps2pdf $(var).ps $(var).pdf);)
 	rm -f ${A2PSTMP}/*.ps
-	cp ${A2PSTMP}/*.pdf  ${DOCS}/src
+	cp ${A2PSTMP}/*.pdf  ${DOCS}/
 	rsync -azpv ${A2PSTMP}/src/*    ${DOCS}/src
 	rsync -azpv ${A2PSTMP}/tests/*  ${DOCS}/tests
 	find ${DOCS}/src/ -type f -name "*.ps" -exec rm -f {} \;
