@@ -99,13 +99,7 @@ commit:
 pull:
 	git pull
 install:
-		       cargo install  --force --path .
-#	cd lenovoad   && cargo install  --force --path .
-#	cd 15_lettre  && cargo install  --force --path .
-#	cd lettre     && cargo install  --force --path .
-#	cd hello    && cargo install  --force --path .
-#	cd wcr      && cargo install  --force --path .
-#	cd headr    && cargo install  --force --path .
+	cargo install  --force --path .
 	ls -lrt ${HOME}/.cargo/bin
 
 cmk-agent-ctl:
@@ -141,8 +135,6 @@ sqld:
 	cd sqld && cargo build && find target/debug  -maxdepth 1 -type f -perm /755 | egrep -v "\.d"
 	cd sqld && cp -p target/debug/sqld target/debug/bottomless-cli ${HOME}/.cargo/bin
 	ls -lrt ${HOME}/.cargo/bin
-buildad:
-	cargo build -p lenovoad && find target/debug  -maxdepth 1 -type f -perm /755 | egrep -v "\.d"
 format:
 	cargo fmt -v
 
