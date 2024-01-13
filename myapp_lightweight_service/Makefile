@@ -45,8 +45,8 @@ clean_hardest: clean_rpms
 
 #Ref: https://stackoverflow.com/questions/1490949/how-to-write-loop-in-a-makefile
 # MANIFEST  
-SRC1= Makefile Cargo.toml myapp_lightweight_service-dir-layout.txt
-SRC2= src/app.rs	src/bin/main.rs  src/controllers/guide.rs  src/controllers/home2.rs  src/controllers/home.rs  src/controllers/mod.rs  src/lib.rs  src/views/home.rs  src/views/mod.rs
+SRC1= README.md Makefile Cargo.toml myapp_lightweight_service-dir-layout.txt
+SRC2= src/app.rs src/bin/main.rs  src/controllers/guide.rs  src/controllers/home2.rs  src/controllers/home.rs  src/controllers/mod.rs  src/lib.rs  src/views/home.rs  src/views/mod.rs
 SRC3= tests/requests/guide.rs  tests/requests/home2.rs  tests/requests/home.rs  tests/requests/mod.rs  tests/requests/snapshots/can_get_home2@home2_request.snap  tests/requests/snapshots/home2_request.snap tests/requests/snapshots/can_get_home@home_request.snap
 #SRC2= manage.py profiles_projects-dir-layout.txt
 
