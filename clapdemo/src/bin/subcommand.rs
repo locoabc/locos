@@ -4,8 +4,7 @@ use clap::{arg, command, Command};
 fn main() {
     
     let matches = command!() // requires `cargo` feature
-        .help_template("{before-help}{name} {version}
-{author-with-newline}{about-with-newline}
+        .help_template("{before-help}{name} {version} {author-with-newline} {about-with-newline}
 {usage-heading} [Options] [Commands] [Options]
 {all-args}{after-help}")
         .version("1.1")
