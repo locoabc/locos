@@ -1,6 +1,15 @@
 mod classes;
+mod functions;
+mod hello;
 
 fn main() {
+    hello::hello();
+    let result = functions::add(5, 3);
+    println!("Sum: {}", result);
+
+    let result = functions::multiply(5, 3);
+    println!("Product: {}", result);
+
     let rectangle = classes::Rectangle { width: 10.0, height: 5.0 };
     let circle = classes::Circle { radius: 3.0 };
     let triangle = classes::Triangle { base: 8.0, height: 4.0 };
@@ -8,3 +17,6 @@ fn main() {
     println!("Circle: radius = {}, circumference = {}", circle.radius, circle.circumference());
     println!("Triangle: base = {}, height = {}, area = {}", triangle.base, triangle.height, triangle.area());
 }
+
+
+
