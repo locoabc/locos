@@ -3,6 +3,9 @@ mod functions;
 mod hello;
 
 fn main() {
+   // let name = String::from("Rusty");
+   // greeting(name);
+
     hello::hello();
     let result = functions::add(5, 3);
     println!("Sum: {}", result);
@@ -19,4 +22,25 @@ fn main() {
 }
 
 
+#[cfg(test)]
+mod tests {
+    use super::*;
 
+    #[test]
+    fn hello_world_test() {
+        let want = String::from("Hello, World!");
+        let result = hello_world();
+        assert_eq!(want, result);
+    }
+    // ANCHOR_END: test
+
+    // ANCHOR: greeting_test
+    #[test]
+    fn greeting_test() {
+        let want = String::from("Hello, Rusty!");
+        let name = String::from("Rusty");
+        let result = greeting(name);
+        assert_eq!(want, result);
+    }
+    // ANCHOR_END: greeting_test
+}
