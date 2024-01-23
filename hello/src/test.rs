@@ -1,14 +1,12 @@
 fn greeting(name: String) -> String {
-   let hello = String::from("Hello, ");
+    let hello = String::from("Hello, ");
     let greeting = format!("{hello}{name}!");
     greeting
 }
 
 fn hello_world() -> String {
-    let greeting = String::from("Hello, World!");
-    greeting
+    String::from("Hello, World!")
 }
-
 
 #[test]
 fn hello_world_test() {
@@ -23,4 +21,3 @@ fn greeting_test() {
     let result = greeting(name);
     assert_eq!(want, result);
 }
-

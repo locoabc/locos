@@ -1,4 +1,5 @@
 pub struct Rectangle {
+    /// Rectangle classes with width and hight atrribute.
     pub width: f64,
     pub height: f64,
 }
